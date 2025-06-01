@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie & Events Platform</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
 </head>
 <body>
-    <nav class="fnav">
+    <header class="fnav">
         <div class="fleft">
-            <!-- <img src="logo." alt="logo"> -->
-            <img src="images/try2logo.png" alt="logo">
-            <input type="text" placeholder="Search for Movies,Events,place,Sports and Activities">
+            <img src="try2logo.png" alt="Platform Logo" />
+            <input
+                type="text"
+                placeholder="Search for Movies, Events, Places, Sports, and Activities"
+            />
         </div>
         <div class="fright">
             <p>Location</p>
-            <button>SignIn</button>
-            <i class="fa-solid fa-bars" ></i>
+            <a href="signin.html" class="signin-button">Sign In</a>
+            <i class="fa-solid fa-bars"></i>
         </div>
-    </nav>
+    </header>
+
     <nav class="snav">
         <div class="sleft">
             <p>Movies</p>
-            <p>Stream <sup><small>NEW</small></sup> </p>
+            <p>Stream <sup><small>NEW</small></sup></p>
             <p>Events</p>
             <p>Plays</p>
             <p>Sports</p>
@@ -32,59 +38,65 @@
             <p>Buzz</p>
         </div>
         <div class="sright">
-            <p>ListYourShows</p>
+            <p>List Your Shows</p>
             <p>Corporates</p>
             <p>Offers</p>
             <p>Gift Cards</p>
         </div>
     </nav>
-    <div class="main">
-        <img src="images/main.jpg" alt="mainEvent">
-    </div>
-    <div class="container">
+
+    <section class="main">
+        <img src="main.jpg" alt="Main Event Banner" />
+    </section>
+
+    <section class="container">
         <h2>Recommended Movies</h2>
         <div class="cards">
-            <img src="images/card1.jpg" alt="Movies">
-            <img src="images/card2.jpg" alt="Movies">
-            <img src="images/card3.jpg" alt="Movies">
-            <img src="images/card4.jpg" alt="Movies">
-            <img src="images/card5.jpg" alt="Movies">
+            <img src="card1.jpg" alt="Movie Poster 1" />
+            <img src="card2.jpg" alt="Movie Poster 2" />
+            <img src="card3.jpg" alt="Movie Poster 3" />
+            <img src="card4.jpg" alt="Movie Poster 4" />
+            <img src="card5.jpg" alt="Movie Poster 5" />
         </div>
-    </div>
-    <div class="banner">
-        <img src="images/banner.png" alt="">
-    </div>
-    <div class="container">
-        <h2>The best of Live Events</h2>
+    </section>
+
+    <section class="banner">
+        <img src="banner.png" alt="Promotional Banner" />
+    </section>
+
+    <section class="container">
+        <h2>The Best of Live Events</h2>
         <div class="cards">
-            <img src="images/ccard1.png" alt="cards">
-            <img src="images/ccard2.png" alt="cards">
-            <img src="images/ccard3.png" alt="cards">
-            <img src="images/ccard4.png" alt="cards">
-            <img src="images/ccard5.png" alt="cards">
+            <img src="ccard1.png" alt="Live Event 1" />
+            <img src="ccard2.png" alt="Live Event 2" />
+            <img src="ccard3.png" alt="Live Event 3" />
+            <img src="ccard4.png" alt="Live Event 4" />
+            <img src="ccard5.png" alt="Live Event 5" />
         </div>
-    </div>
-     <div class="PREMEIRE">
-        <h2>PREMEIRE</h2>
+    </section>
+
+    <section class="PREMEIRE">
+        <h2>PREMIERE</h2>
         <div class="container2">
             <h2>Best of Live Events</h2>
-          <div class="pcards">
-             <img src="images/pcard1.jpg" alt="cards">
-             <img src="images/pcard2.jpg" alt="cards">
-             <img src="images/pcard3.jpg" alt="cards">
-             <img src="images/pcard4.jpg" alt="cards">
-             <img src="images/pcard5.jpg" alt="cards">
-          </div>
+            <div class="pcards">
+                <img src="pcard1.jpg" alt="Premiere 1" />
+                <img src="pcard2.jpg" alt="Premiere 2" />
+                <img src="pcard3.jpg" alt="Premiere 3" />
+                <img src="pcard4.jpg" alt="Premiere 4" />
+                <img src="pcard5.jpg" alt="Premiere 5" />
+            </div>
         </div>
-     </div>
-     <div class="footer">
-        <img src="images/try2logo.png" alt="">
+    </section>
+
+    <footer class="footer">
+        <img src="try2logo.png" alt="Footer Logo" />
         <div class="icon">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-square-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-facebook" aria-label="Facebook"></i>
+            <i class="fa-brands fa-square-instagram" aria-label="Instagram"></i>
+            <i class="fa-brands fa-twitter" aria-label="Twitter"></i>
+            <i class="fa-brands fa-youtube" aria-label="YouTube"></i>
         </div>
-     </div>
+    </footer>
 </body>
-</html> 
+</html>
